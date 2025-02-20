@@ -4,3 +4,11 @@ body {
     background-color: #ffffff;
     padding: 20px;
 }
+input {
+    padding: 1px;
+    width: 50%;  /* Adjust this value as needed */
+    max-width: 300px; /* Ensures it doesn’t get too big */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Makes the text inside more readable */
+}
