@@ -28,13 +28,16 @@ form {
 .responsive-video {
     width: 100%;          /* Makes the video take up the full width of its container */
     height: auto;         /* Keeps the aspect ratio */
-    max-width: 640px;     /* Optionally limit the maximum width */
+    max-width: 400px;     /* Optionally limit the maximum width */
     display: block;       /* Removes unwanted space below the video */
     margin: 0 auto;       /* Centers the video horizontally */
   }
   @media (max-width: 768px) {
     .responsive-video {
-      max-width: 100%;    /* Ensures the video takes up full screen width on small devices */
-      height: auto;       /* Keeps the aspect ratio */
+      max-height: 300px;  /* Reduce size for smaller screens */
+    }
+  
+    img {
+      max-width: 100%;    /* Ensure images don't get too big */
     }
   }
